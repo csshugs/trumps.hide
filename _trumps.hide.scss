@@ -1,0 +1,23 @@
+/*------------------------------------*\
+    #HIDE
+\*------------------------------------*/
+
+/**
+ * Hide elements on certain breakpoints.
+ */
+
+@each $breakpoint in $breakpoints {
+
+    $alias:     nth($breakpoint, 1);
+    $condition: nth($breakpoint, 2);
+
+    @include media-query($alias) {
+
+        %#{$alias}-hide,
+        .#{$alias}-hide{
+            display: none;
+        }
+
+    } // Close media query.
+
+} // Close breakpoints loop.

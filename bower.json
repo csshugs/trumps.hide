@@ -1,0 +1,20 @@
+{
+  "name": "inuit-hide",
+  "version": "0.1.0",
+  "homepage": "https://github.com/TryGenesis/trumps.hide",
+  "authors": [
+    "Dennis Heibuelt <dennis@csshugs.com>"
+  ],
+  "description": "Hide elements on certain breakpoints",
+  "main": "_trumps.hide.scss",
+  "keywords": [
+    "inuitcss",
+    "oocss",
+    "css"
+  ],
+  "license": "Apache",
+  "dependencies": {
+    "inuit-responsive-settings": "~0.1.3",
+    "inuit-responsive-tools": "~0.1.3"
+  }
+}
