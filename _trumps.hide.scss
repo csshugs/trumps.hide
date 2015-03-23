@@ -15,7 +15,7 @@
 
         %#{$alias}-hide,
         .#{$alias}-hide{
-            display: none;
+            display: none !important;
         }
 
     } // Close media query.
