@@ -3,17 +3,17 @@
 \*------------------------------------*/
 
 /**
- * Hide elements on certain breakpoints.
+ * Hide elements on certain breakpoints based on your responsive settings.
  */
 
+// Loop over our breakpoints defined in _settings.responsive.scss
 @each $breakpoint in $breakpoints {
 
+    // Get the name of the breakpoint.
     $alias:     nth($breakpoint, 1);
-    $condition: nth($breakpoint, 2);
 
     @include media-query($alias) {
 
-        %#{$alias}-hide,
         .#{$alias}-hide{
             display: none !important;
         }
