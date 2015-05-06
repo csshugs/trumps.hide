@@ -1,7 +1,7 @@
 {
   "name": "inuit-hide",
-  "version": "0.1.2",
-  "homepage": "https://github.com/TryGenesis/trumps.hide",
+  "version": "0.2.0",
+  "homepage": "https://github.com/csshugs/trumps.hide",
   "authors": [
     "Dennis Heibuelt <dennis@csshugs.com>"
   ],
@@ -14,7 +14,7 @@
   ],
   "license": "Apache",
   "dependencies": {
-    "inuit-responsive-settings": "~0.1.3",
+    "inuit-responsive-settings": "~0.1.5",
     "inuit-responsive-tools": "~0.1.3"
   }
 }

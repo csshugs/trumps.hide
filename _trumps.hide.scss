@@ -5,6 +5,9 @@
 /**
  * Hide elements on certain breakpoints based on your responsive settings.
  */
+.u-hide {
+    display: none !important;
+}
 
 // Loop over our breakpoints defined in _settings.responsive.scss
 @each $breakpoint in $breakpoints {
@@ -14,7 +17,7 @@
 
     @include media-query($alias) {
 
-        .#{$alias}-hide{
+        .u-hide-#{$alias}{
             display: none !important;
         }
 
